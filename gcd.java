@@ -8,12 +8,12 @@ public class gcd {
         int first =input.nextInt();
         System.out.println("Enter the second number: ");
         int second =input.nextInt();
-        int GCD =gcd(first,second);
+        int GCD =findGcd(first,second);
         System.out.println("The GCD of the number is :" + GCD );
         input.close();
     }
 
-    public static int gcd(int x, int y){
+    public static int findGcd(int x, int y){
         int gcdValue =1;
         int i=2;
         int small =least(x,y);
