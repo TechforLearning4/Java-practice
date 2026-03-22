@@ -13,9 +13,9 @@ public class reverse {
 
     public static int rev(int num){
         int newNum =0;
-        int digit = 0;
+   
         while(0<num){
-            digit =  num % 10;
+           int digit =  num % 10;
             newNum = newNum * 10 + digit;
             num = num/10;
         }
