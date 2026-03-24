@@ -12,6 +12,7 @@ public class ArraySumAverage {
     }
 
     public static long sum(int[] numArray){
+
         long sum =0;
         int i=0;
         while(i<numArray.length){
@@ -25,4 +26,4 @@ public class ArraySumAverage {
         long sum=sum(numArray);
         return (int)(sum / numArray.length);
     }
-}
+} 
