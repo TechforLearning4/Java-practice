@@ -3,7 +3,7 @@ package array;
 public class ArraySumAverage {
     public static void main(String[] args) {
         System.out.println("Welcome to Array sum and Average");
-        int[] numArray =yesUtility.createArray();
+        int[] numArray =YesUtility.createArray();
         long sum = sum(numArray);
         int avg  = avg(numArray);
         System.out.println("Sum of the numbers is: "+sum);
